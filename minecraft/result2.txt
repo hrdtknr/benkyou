@@ -1,0 +1,74 @@
+
+
+
+通常　　　　
+/give @s polished_andesite 63
+
+通常
+/give @s smooth_stone 63
+重
+/give @s blackstone 64
+ひび
+/give @s cracked_deepslate_bricks 63
+
+モンスター
+/give @s lit_pumpkin 63
+
+爆弾　　　　beacon
+
+爆弾大　　　diamond_block
+
+ランダム　　gold_block
+
+ゴール
+
+不動
+
+針
+redstone_ore
+
+3分ちょいくらいのとこまで
+
+-----
+
+
+stone
+sand
+sandstone
+gravel
+coal_ore
+copper_ore
+iron_ore
+gold_ore
+lapis_ore
+diamond_ore
+redstone_ore
+deepslate_iron_ore
+deepslate_gold_ore
+deepslate_lapis_ore
+deepslate_diamond_ore
+deepslate_redstone_ore
+deepslate_copper_ore
+deepslate
+dirt
+tuff
+cobbled_deepslate
+
+-----
+
+
+/fill 181 70 -100 200 50 -150 air
+
+
+
+
+/fill 170 10 -100 180 0 -150 air
+
+
+/fill 170 30 -100 180 10 -150 air replace sand
+/fill 170 30 -100 180 10 -150 air replace sandstone
+/fill 170 30 -100 180 10 -150 air replace redstone_ore
+/fill 170 30 -100 180 10 -150 air replace deepslate_lapis_ore
+/fill 170 30 -100 180 10 -150 air replace deepslate_diamond_ore
+/fill 170 30 -100 180 10 -150 air replace deepslate_redstone_ore
+/fill 170 30 -100 180 10 -150 air replace deepslate_copper_ore
