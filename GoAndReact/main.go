@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"net/http"
+	"encoding/json"
 )
 
 type Fruit struct {
@@ -19,6 +20,8 @@ var fruits = []Fruit{
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "hello Worldddddddddddddd")
+	w.Header().Set("Content-Type","application/json")
+	json.NewEncoder(w).Encode(fruits)
 }
 
 func main() {
